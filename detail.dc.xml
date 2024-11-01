@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata 
-xmlns:da=""
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <dc:title xsi:type="da:viaf" da:ref:"https://viaf.org/viaf/312360878/#Eur%C3%ADpides_|_Medea">Medea</dc:title>
-    <dc:creator xsi:type="da:TLG" da:ref:"https://stephanus.tlg.uci.edu/Iris/demo/csearch.jsp#doc=tlg&aid=0006&wid=&q=EURIPIDES&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=1&acp=&editid=&dt=list&au=EURIPIDES-0--0-Trag-1--0--0--2-0006-3-":>Euripide</dc:creator>
+    xmlns:da="https://daria-99.github.io/sito-web/detailpage.html"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    
+    <dc:title xsi:type="da:viaf" da:ref="https://viaf.org/viaf/312360878/#Eur%C3%ADpides_|_Medea">Medea</dc:title>
+    
+    <dc:creator xsi:type="da:TLG" da:ref="https://stephanus.tlg.uci.edu/Iris/demo/csearch.jsp#doc=tlg&amp;aid=0006&amp;wid=&amp;q=EURIPIDES&amp;cs_sort=1_sortname_asc&amp;st=author_text&amp;aw=&amp;verndipl=0&amp;per=50&amp;c=1&amp;acp=&amp;editid=&amp;dt=list&amp;au=EURIPIDES-0--0-Trag-1--0--0--2-0006-3-">Euripide</dc:creator>
+    
     <dc:subject>la vicenda tragica di Medea</dc:subject>
+    
     <dc:description>La Medea di Euripide è una tragedia classica ambientata a Corinto. La donna, dopo essere scappata con l'amato Giasone dalla propria terra, la Colchide, e averlo sposato contro la volontà di suo padre e di suo fratello, viene abbandonata proprio dal suo nuovo marito per un'altra donna. Decide così di vendicarsi di lui compiendo un atto efferato: uccidere i loro figli.</dc:description>
-    <dc:type :"https://id.loc.gov/authorities/subjects/sh85136785.html">Tragedia greca</dc:type>
+    
+    <dc:type xsi:type="https://id.loc.gov/authorities/subjects/sh85136785.html">Tragedia greca</dc:type>
+    
     <dc:date>431 a.C.</dc:date>
+    
     <dc:identifier>link del tuo sito</dc:identifier>
+    
     <dc:format>text/HTML</dc:format>
+    
     <dc:source>G. Murray, Euripidis fabulae, vol. 1, Oxford: Clarendon Press, 1902 (repr. 1966)</dc:source>
-    <dc:source>Medea/Euripide; introduzione e premessa al testo di Vincenzo Di Benedetto; traduzione e appendice metrica di Ester Cerbo.</source>
+    
+    <dc:source>Medea/Euripide; introduzione e premessa al testo di Vincenzo Di Benedetto; traduzione e appendice metrica di Ester Cerbo.</dc:source>
+    
     <dc:relation>http://stephanus.tlg.uci.edu/Iris/Cite?0006:003:455</dc:relation>
+    
     <dc:relation>http://id.sbn.it/bid/MIL0843243</dc:relation>
 </metadata>

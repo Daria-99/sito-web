@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tradizioni Classiche</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/066d7318f6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header class="titolo">
+        <h1>Tradizioni Classiche</h1>
+    </header> 
+    
+    <nav class="navbar">
+        <ul class="nav-left">
+            <li><a href="index.html">Home</a></li>  
+            <li>
+                <div class="dropdown">
+                    <span><a href="#">Catalogo</a></span>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="catalogo.html">Lista completa</a></li>
+                            <li><a href="#">Soggetti</a></li>
+                            <li><a href="#">Autori</a></li>
+                            <li><a href="#">Luoghi</a></li>
+                            <li><a href="#">Date</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <span><a href="#">Contenuti</a></span>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="#">Immagini</a></li>
+                            <li><a href="#">Testi</a></li>
+                            <li><a href="#">Contenuti video</a></li>
+                            <li><a href="#">Contenuti audio</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search...">
+            <button class="search-btn">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Struttura centrale con sidebar e grid-container -->
+    <div class="main-content">
+        <aside class="sidebar">
+            <h3>Filtra per</h3> 
+            <button class="action-btn" href="#">Contenuti</button>
+            <button class="action-btn" href="#">Autore</button>
+            <button class="action-btn" href="#">Data</button>
+        </aside>
+
+        <section class="grid-container1">
+            <div class="grid-item">
+                <div class="pic">
+                    <img src="medea.trag.jpg" alt="medea tragedia">
+                </div>
+                <div class="title">
+                    <h2>Medea: la tragedia</h2>
+                </div>
+                <table class="grid-body">
+                    <tr>
+                        <td>Autore:</td>
+                        <td><a href="https://stephanus.tlg.uci.edu/Iris/demo/csearch.jsp#doc=tlg&aid=0006&wid=&q=EURIPIDES&cs_sort=1_sortname_asc&st=author_text&aw=&verndipl=0&per=50&c=1&acp=&editid=&dt=list&au=EURIPIDES-0--0-Trag-1--0--0--2-0006-3-" target="_blank"><strong>Euripide</strong></a></td>
+                    </tr>
+                    <tr>
+                        <td>Data:</td>
+                        <td>431 a.C.</td>
+                    </tr>
+                    <tr>
+                        <td>Ubicazione:</td>
+                        <td><a href="#" target="_blank"><strong>Catalogo OPAC</strong></a></td>
+                    </tr>
+                </table>
+                <div class="metadati">
+                    <a href="detailpage.html" class="detail-btn">Dettagli</a>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="pic">
+                    <img src="casa.dioscuri.cut.JPG" alt="medea coi figli">
+                </div>
+                <div class="title">
+                    <h2>Medea con i suoi figli</h2>
+                </div>
+                <table class="grid-body">
+                    <tr>
+                        <td>Autore:</td>
+                        <td>sconosciuto</td>
+                    </tr>
+                    <tr>
+                        <td>Data:</td>
+                        <td>62-79</td>
+                    </tr>
+                    <tr>
+                        <td>Ubicazione:</td>
+                        <td><a href="http://vocab.getty.edu/page/cona/700081953" target="_blank"><strong>Museo archeologico Nazionale di Napoli</strong></a></td>
+                    </tr>
+                </table>
+                <div class="metadati">
+                    <botton href="#" class="detail-btn">Dettagli</botton>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="pic">
+                    <img src="medea.delacroix.cut.jpeg" alt="medea Delacroix">
+                </div>
+                <div class="title">
+                    <h2>La furia di Medea</h2>
+                </div>
+                <table class="grid-body">
+                    <tr>
+                        <td>Autore:</td>
+                        <td><a href="https://viaf.org/viaf/7389086/#Delacroix,_Eug%C3%A8ne,_1798-1863." target="_blank"><strong>Delacroix, Eugène</strong></a></td>
+                    </tr>
+                    <tr>
+                        <td>Data:</td>
+                        <td>1862</td>
+                    </tr>
+                    <tr>
+                        <td>Ubicazione:</td>
+                        <td><a href="http://vocab.getty.edu/page/ulan/500125189" target="_blank"><strong>Louvre Museum, Paris</strong></a></td>
+                    </tr>
+                </table>
+                <div class="metadati">
+                    <botton><a href="detailpage1.html" class="detail-btn">Dettagli</a></botton>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="pic">
+                    <img src="medea.cezanne.cut.jpg" alt="medea cezanne">
+                </div>
+                <div class="title">
+                    <h2>Medea: dipinto</h2>
+                </div>
+                <table class="grid-body">
+                    <tr>
+                        <td>Autore:</td>
+                        <td><a href="https://viaf.org/viaf/39374836/#C%C3%A9zanne,_Paul,_1839-1906." target="_blank"><strong>Cézanne, Paul</strong></a></td>
+                    </tr>
+                    <tr>
+                        <td>Data:</td>
+                        <td>1882</td>
+                    </tr>
+                    <tr>
+                        <td>Ubicazione:</td>
+                        <td><a href="http://vocab.getty.edu/page/ulan/500245760" target="_blank"><strong>Kunsthaus Zürich</strong></a></td>
+                    </tr>
+                </table>
+                <div class="metadati">
+                    <botton href="#" class="detail-btn">Dettagli</botton>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="pic">
+                    <img src="medea.pasolini.jpg" alt="medea film">
+                </div>
+                <div class="title">
+                    <h2>Medea: film</h2>
+                </div>
+                <table class="grid-body">
+                    <tr>
+                        <td>Autore:</td>
+                        <td><a href="https://lccn.loc.gov/n79046419" target="_blank"><strong>Pasolini, Pier Paolo</strong></a></td>
+                    </tr>
+                    <tr>
+                        <td>Data:</td>
+                        <td>1969</td>
+                    </tr>
+                    <tr>
+                        <td>Ubicazione:</td>
+                        <td><a href="http://id.sbn.it/bid/UBO1267047" target="_blank"><strong>Catalogo OPAC</strong></a></td>
+                    </tr>
+                </table>
+                <div class="metadati">
+                    <botton href="#" class="detail-btn">Dettagli</botton>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="pic">
+                    <img src="medea.wolf.png" alt="medea voci">
+                </div>
+                <div class="title">
+                    <h2>Medea, voci</h2>
+                </div>
+                <table class="grid-body">
+                    <tr>
+                        <td>Autore:</td>
+                        <td><a href="https://viaf.org/viaf/109289723/#Wolf,_Christa" target="_blank"><strong>Wolf, Christa</strong></a></td>
+                    </tr>
+                    <tr>
+                        <td>Data:</td>
+                        <td>1996</td>
+                    </tr>
+                    <tr>
+                        <td>Ubicazione:</td>
+                        <td><a href="http://id.sbn.it/bid/LO10412769" target="_blank"><strong>Catalogo OPAC</strong></a></td>
+                    </tr>
+                </table>
+                <div class="metadati">
+                    <botton href="#" class="detail-btn">Dettagli</botton>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="prev-next-btns">
+        <a href="#" class="previous round">&#8249;</a>
+        <a href="#" class="next round">&#8250;</a>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-section">
+            <h4>About Us</h4>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Contact</h4>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Credits</h4>
+        </div>
+        
+        <div class="footer-btn">
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+        </div>
+        
+        <div class="footer-copyright">
+            &copy; Copyright Daria Sfamurri, 2023/24 - Corso di Digital Humanities e Patrimonio Culturale
+        </div>
+    </footer>
+</body>
+
+</html>

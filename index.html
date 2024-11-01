@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tradizioni Classiche</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/066d7318f6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="titolo">
+        <h1>Tradizioni Classiche</h1>
+    </header>
+
+    <nav class="navbar">
+        <ul class="nav-left">
+            <li><a href="index.html">Home</a></li>  
+            <li> 
+                <div class="dropdown">
+                    <span><a href="#">Catalogo</a></span>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="catalogo.html">Lista completa</a></li>
+                            <li><a href="#">Soggetti</a></li>
+                            <li><a href="#">Autori</a></li>
+                            <li><a href="#">Luoghi</a></li>
+                            <li><a href="#">Date</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <span><a href="#">Contenuti</a></span>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="#">Immagini</a></li>
+                            <li><a href="#">Testi</a></li>
+                            <li><a href="#">Contenuti video</a></li>
+                            <li><a href="#">Contenuti audio</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search...">
+            <button class="search-btn">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section class="progetto">
+        <h1> Il progetto</h1>
+        <p>Il catalogo <i>Tradizioni classiche</i> è un progetto nato in occasione del corso <i>Digital Humanities e patrimonio culturale</i> dell'Università di Bologna. L'obiettivo del progetto di metadatazione è quello di raccogliere e catalogare tutte le attestazioni artistiche legate a figure e personaggi della tradizione classica greca.
+            Il sito offre una panoramica delle diverse interpretazioni artistiche sviluppate nel corso degli anni, includendo opere visive, letterarie e iconografiche, per valorizzare l’eredità culturale greca. </p>
+    </section>
+
+    <section class="percorsi">
+        <h1>I percorsi</h1>
+        
+        <div class="grid-container">
+            <div class="soggetti">
+            <h2>Soggetti</h2>
+            <p>Il catalogo può essere esplorato tramite la ricerca di un soggetto in particolare della tradizione per trovare tutte le attestazioni che lo riguardano.</p>
+            <a href="#" class="detail-btn">Dettagli</a>
+            </div>
+        
+            <div class="autori">
+            <h2>Autori</h2>
+            <p>In questo modo è possibile osservare la lista completa dei soggetti delle opere di ciascun autore o artista.</p>
+            <a href="#" class="detail-btn">Dettagli</a>
+            </div>
+        
+            <div class="luoghi">
+            <h2>Luoghi</h2>
+            <p>Le opere sono catalogate anche in base al luogo in cui sono ad oggi conservate.</p>
+            <a href="#" class="detail-btn">Dettagli</a>
+            </div>
+        
+            <div class="date">
+            <h2>Date</h2>
+            <p>Il catalogo può essere esplorato anche secondo l'ordine cronologico di realizzazione o pubblicazione delle opere in questione.</p>
+            <a href="#" class="detail-btn">Dettagli</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-section">
+            <h4>About Us</h4>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Contact</h4>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Credits</h4>
+        </div>
+        
+        <div class="footer-btn">
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+        </div>
+        
+        <div class="footer-copyright">
+            &copy; Copyright Daria Sfamurri, 2023/24 - Corso di Digital Humanities e Patrimonio Culturale
+        </div>
+    </footer>
+</body>
+</html>

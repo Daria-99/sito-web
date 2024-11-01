@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tradizioni Classiche</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/066d7318f6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header class="titolo">
+        <h1>Tradizioni Classiche</h1>
+    </header> 
+    
+    <nav class="navbar">
+        <ul class="nav-left">
+            <li><a href="index.html">Home</a></li>  
+            <li>
+                <div class="dropdown">
+                    <span><a href="#">Catalogo</a></span>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="catalogo.html">Lista completa</a></li>
+                            <li><a href="#">Soggetti</a></li>
+                            <li><a href="#">Autori</a></li>
+                            <li><a href="#">Luoghi</a></li>
+                            <li><a href="#">Date</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <span><a href="#">Contenuti</a></span>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="#">Immagini</a></li>
+                            <li><a href="#">Testi</a></li>
+                            <li><a href="#">Contenuti video</a></li>
+                            <li><a href="#">Contenuti audio</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search...">
+            <button class="search-btn">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="detail-title">
+        <h2>La furia di Medea</h2>
+    </div>
+
+    <main class="detail-page">
+        <!-- Layout principale: tre sezioni -->
+        <div class="left-section">
+            <button class="action-btn">
+                <i class="fa-solid fa-share-square"></i> Condividi
+            </button>
+            <button class="action-btn">
+                <i class="fa-solid fa-link"></i>Permalink
+            </button>
+            <button class="action-btn">
+                <i class="far fa-file-code"></i>XML/DC
+            </button>
+        </div>
+
+        <div class="center-section">            
+
+            <!-- Container galleria -->
+            <div class="gallery-container">
+                <!-- Slideshow Images -->
+                <div class="slideshow-container">
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="1medea.delacroix.JPG" style="width:100%">
+                    </div>
+            
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="2medea.delacroix.JPG" style="width:100%">
+                    </div>
+            
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="3medea.delacroix.JPG" style="width:100%">
+                    </div>
+                </div>
+            
+                <!-- Thumbnail Images -->
+                <div class="thumbnail-container">
+                    <img class="demo cursor" src="1medea.delacroix.JPG" onclick="currentSlide(1)">
+                    <img class="demo cursor" src="2medea.delacroix.JPG" onclick="currentSlide(2)">
+                    <img class="demo cursor" src="3medea.delacroix.JPG" onclick="currentSlide(3)">
+                </div>
+            </div>            
+
+            <div class="detail-description">
+                <p>
+                    Le foto provengono dal <a href="https://collections.louvre.fr/en/ark:/53355/cl010059373" target="_blank">catalogo</a> online del Museo del Louvre.
+                </p>
+            </div>
+
+            <!-- Divider puntinato -->
+            <hr class="dotted-divider">
+
+            <!-- Tabella dei dati -->
+            <div class="detail-metadata">
+                <table>
+                    <tr>
+                        <td><strong>Titolo:</strong></td>
+                        <td>Médée furieuse</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Autore:</strong></td>
+                        <td><strong><a href="https://viaf.org/viaf/7389086/#Delacroix,_Eug%C3%A8ne,_1798-1863." target="_blank">Delacroix, Eugène</a></strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tipologia di documento:</strong></td>
+                        <td>Dipinto</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Data:</strong></td>
+                        <td>1862</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Dimensioni:</strong></td>
+                        <td> 1,225 x 0,845 m</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Materiale e tecnica:</strong></td>
+                        <td>Olio su tela</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ubicazione:</strong></td>
+                        <td><strong><a href="http://vocab.getty.edu/page/ulan/500125189" target="_blank">Louvre Museum, Paris</a></strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Codice d'inventario:</strong></td>
+                        <td>RF 1402</td>
+                    </tr>
+                </table>
+            </div>
+
+            <hr class="dotted-divider">
+
+            <div class="color-analysis">
+                <h2>Analisi dei colori</h2>
+                <img id="image" src="1medea.delacroix.JPG" alt="Immagine da analizzare">
+                <div class="palette-container">
+                    <div class="color-palette">
+                        <div class="color-block" style="background-color: #735736">#735736</div>
+                        <div class="color-block" style="background-color: #D9AB73">#D9AB73</div>
+                        <div class="color-block" style="background-color: #403222">#403222</div>
+                        <div class="color-block" style="background-color: #BF8C6F">#BF8C6F</div>
+                        <div class="color-block" style="background-color: #733729">#733729</div>
+                        <div class="color-block" style="background-color: #7F8875">#7F8875</div>
+                    </div>
+                    <div class="color-description">
+                        <p id="palette-description">La palette di colori (HEX) è stata generata da <a href="https://color.adobe.com/it/create/image" target="_blank">Adobe Color</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sezione di destra con aside -->
+        <aside class="right-section">
+            <h2>Confronta con</h2>
+            <div class="grid-item">
+                <div class="pic">
+                    <img src="medea.cezanne.cut.jpg" alt="medea cezanne">
+                </div>
+                <div class="title">
+                    <h2>Medea: dipinto</h2>
+                </div>
+                <table class="grid-body">
+                    <tr>
+                        <td>Autore:</td>
+                        <td><a href="https://viaf.org/viaf/39374836/#C%C3%A9zanne,_Paul,_1839-1906." target="_blank"><strong>Cézanne, Paul</strong></a></td>
+                    </tr>
+                    <tr>
+                        <td>Data:</td>
+                        <td>1882</td>
+                    </tr>
+                    <tr>
+                        <td>Ubicazione:</td>
+                        <td><a href="http://vocab.getty.edu/page/ulan/500245760" target="_blank"><strong>Kunsthaus Zürich</strong></a></td>
+                    </tr>
+                </table>
+                <div class="metadati">
+                    <botton href="#" class="detail-btn">Dettagli</botton>
+                </div>
+            </div>
+
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-section">
+            <h4>About Us</h4>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Contact</h4>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Credits</h4>
+        </div>
+        
+        <div class="footer-btn">
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+        </div>
+        
+        <div class="footer-copyright">
+            &copy; Copyright Daria Sfamurri, 2023/24 - Corso di Digital Humanities e Patrimonio Culturale
+        </div>
+    </footer>
+
+</body>
+</html>

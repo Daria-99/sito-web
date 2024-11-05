@@ -12,7 +12,7 @@
     
     <dc:description>La Medea di Euripide è una tragedia classica ambientata a Corinto. La donna, dopo essere scappata con l'amato Giasone dalla propria terra, la Colchide, e averlo sposato contro la volontà di suo padre e di suo fratello, viene abbandonata proprio dal suo nuovo marito per un'altra donna. Decide così di vendicarsi di lui compiendo un atto efferato: uccidere i loro figli.</dc:description>
     
-    <dc:type xsi:type="https://id.loc.gov/authorities/subjects/sh85136785.html">Tragedia greca</dc:type>
+    <dc:type xsi:type="da:LCSH" da:ref="https://id.loc.gov/authorities/subjects/sh85136785.html">Tragedia greca</dc:type>
     
     <dc:date>431 a.C.</dc:date>
     
